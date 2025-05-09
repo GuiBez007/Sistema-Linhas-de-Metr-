@@ -13,10 +13,16 @@
         android:theme="@style/Theme.SistemaLinhasMetro"
         tools:targetApi="31">
         <activity
+            android:name=".ExibirDadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RespostasActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
